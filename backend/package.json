@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2",
+    "dotenv": "^16",
+    "express": "^4",
+    "mongodb": "^7.1.0",
+    "mongoose": "^8",
+    "morgan": "^1"
+  },
+  "devDependencies": {
+    "nodemon": "^3"
+  }
+}
